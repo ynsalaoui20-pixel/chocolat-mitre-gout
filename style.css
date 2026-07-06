@@ -1,0 +1,259 @@
+/* =========================
+   MAITRE GOUT STYLE
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0f0f0f;
+    color:#fff;
+    line-height:1.6;
+}
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(0,0,0,.9);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    z-index:999;
+    border-bottom:1px solid #b48b3c;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-right:15px;
+    object-fit:cover;
+    border:2px solid gold;
+}
+
+.logo h1{
+    font-family:'Cinzel',serif;
+    color:gold;
+    font-size:26px;
+}
+
+.logo p{
+    color:#ddd;
+    font-size:13px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+    font-weight:500;
+}
+
+nav ul li a:hover{
+    color:gold;
+}
+
+.hero{
+    height:100vh;
+    background:url(couver.jpg.jpeg) center center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.overlay{
+    background:rgba(0,0,0,.65);
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.overlay h2{
+    font-size:60px;
+    color:gold;
+    margin-bottom:20px;
+}
+
+.overlay p{
+    max-width:700px;
+    font-size:20px;
+    margin-bottom:35px;
+}
+
+.btn{
+    background:gold;
+    color:black;
+    padding:15px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.4s;
+}
+
+.btn:hover{
+    background:white;
+    transform:scale(1.05);
+}
+
+section{
+    padding:90px 8%;
+}
+
+section h2{
+    text-align:center;
+    font-size:40px;
+    color:gold;
+    margin-bottom:40px;
+    font-family:'Cinzel',serif;
+}
+
+#about p{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#1d1d1d;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.4s;
+    box-shadow:0 0 20px rgba(255,215,0,.15);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.card h3{
+    text-align:center;
+    padding:20px;
+    color:gold;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:12px;
+    transition:.4s;
+    cursor:pointer;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+#contact{
+    text-align:center;
+}
+
+#contact p{
+    font-size:20px;
+    margin:15px 0;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:25px;
+    color:#aaa;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:65px;
+    height:65px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:34px;
+    text-decoration:none;
+    box-shadow:0 0 15px rgba(0,0,0,.5);
+    transition:.3s;
+}
+
+.whatsapp:hover{
+    transform:scale(1.1);
+}
+
+@media(max-width:900px){
+
+header{
+flex-direction:column;
+}
+
+nav ul{
+margin-top:15px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.overlay h2{
+font-size:40px;
+}
+
+.overlay p{
+font-size:16px;
+}
+
+.logo img{
+width:60px;
+height:60px;
+}
+
+section h2{
+font-size:30px;
+}
+
+}
