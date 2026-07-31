@@ -1,219 +1,1059 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAÎTRE GOÛT | Chocolatier</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+<title>Velmira Pack | Cadeaux & Accessoires</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
-    <script src="https://kit.fontawesome.com/6f4d2c9d71.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
+
 <body>
+
+<!-- ================= NAVBAR ================= -->
 
 <header>
 
+<nav class="navbar">
+
 <div class="logo">
 
-<img src="logo.jpg" alt="Logo.jpg">
+<img src="logo.png" alt="Velmira Pack">
 
-<h1>MAÎTRE GOÛT</h1>
-
-<p>Chocolatier</p>
+<h2>Velmira Pack</h2>
 
 </div>
 
-<nav>
-
-<ul>
+<ul class="menu">
 
 <li><a href="#home">Accueil</a></li>
 
 <li><a href="#about">À propos</a></li>
 
-<li><a href="#products">Produits</a></li>
+<li><a href="#packs">Nos Packs</a></li>
 
-<li><a href="#gallery">Galerie</a></li>
+<li><a href="#products">Accessoires</a></li>
+
+<li><a href="#reviews">Avis</a></li>
 
 <li><a href="#contact">Contact</a></li>
 
 </ul>
 
+<div class="nav-icons">
+
+<i class="fa-solid fa-heart"></i>
+
+<div class="cart-btn">
+
+<i class="fa-solid fa-bag-shopping"></i>
+
+<span id="cart-count">0</span>
+
+</div>
+
+</div>
+
 </nav>
 
 </header>
 
+<!-- ================= HERO ================= -->
 
-<section id="home" class="hero">
+<section class="hero" id="home">
 
-<div class="overlay">
+<div class="hero-text">
 
-<h2>L'Art du Chocolat</h2>
+<span class="premium">
+COLLECTION LUXE
+</span>
 
-<p>Des créations artisanales raffinées pour toutes vos occasions.</p>
+<h1>
 
-<a href="https://wa.me/212773255362" class="btn">
-Commander maintenant
+Des cadeaux élégants
+pour chaque occasion
+
+</h1>
+
+<p>
+
+Découvrez des packs soigneusement composés
+avec les plus beaux accessoires féminins.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#packs" class="btn-primary">
+
+Découvrir les Packs
+
 </a>
+
+<a href="#products" class="btn-secondary">
+
+Voir les Accessoires
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="hero.png" alt="Velmira Pack">
 
 </div>
 
 </section>
 
+<!-- ================= ABOUT ================= -->
 
-<section id="about">
+<section class="about" id="about">
 
-<h2>À propos</h2>
+<div class="section-title">
+
+<h2>À propos de nous</h2>
 
 <p>
 
-Bienvenue chez MAÎTRE GOÛT.
+Velmira Pack est une marque spécialisée dans
+les coffrets cadeaux élégants pour femmes.
 
-Nous réalisons des chocolats artisanaux, des coffrets cadeaux,
-des dattes fourrées et des créations haut de gamme.
+Nous sélectionnons avec soin chaque accessoire
+afin de créer des packs raffinés, modernes
+et parfaits pour offrir.
 
-Chaque pièce est préparée avec passion afin d'offrir une expérience unique.
+Notre objectif est d'apporter de la joie
+à travers des cadeaux uniques.
 
 </p>
 
+</div>
+
+<div class="about-cards">
+
+<div class="about-card">
+
+<i class="fa-solid fa-gem"></i>
+
+<h3>Qualité Premium</h3>
+
+<p>
+Des accessoires soigneusement sélectionnés.
+</p>
+
+</div>
+
+<div class="about-card">
+
+<i class="fa-solid fa-gift"></i>
+
+<h3>Packs Exclusifs</h3>
+
+<p>
+
+Des coffrets élégants
+créés spécialement pour vous.
+
+</p>
+
+</div>
+
+<div class="about-card">
+
+<i class="fa-solid fa-truck-fast"></i>
+
+<h3>Livraison Rapide</h3>
+
+<p>
+
+Expédition rapide partout au Maroc.
+
+</p>
+
+</div>
+
+</div>
+
 </section>
 
+<!-- ================= PACKS ================= -->
 
-<section id="products">
+<section class="packs" id="packs">
+
+<div class="section-title">
+
+<h2>Nos Packs</h2>
+
+<p>
+
+Choisissez le coffret qui vous ressemble.
+
+</p>
+
+</div>
+
+<div class="pack-grid">
+
+<div class="pack-card">
+
+<img src="princess.jpg">
+
+<h3>Princess Pack</h3>
+
+<ul>
+
+<li>Montre</li>
+
+<li>Bracelet</li>
+
+<li>Collier</li>
+
+<li>Boucles d'oreilles</li>
+
+<li>Boîte cadeau luxe</li>
+
+</ul>
+
+<button onclick="addToCart('Princess Pack')">
+
+Ajouter au panier
+
+</button>
+
+</div>
+
+<div class="pack-card">
+
+<img src="elegance.jpg">
+
+<h3>Elegance Pack</h3>
+
+<ul>
+
+<li>Sac à main</li>
+
+<li>Bracelet</li>
+
+<li>Bague</li>
+
+<li>Collier</li>
+
+</ul>
+
+<button onclick="addToCart('Elegance Pack')">
+
+Ajouter au panier
+
+</button>
+
+</div>
+
+<div class="pack-card">
+
+<img src="luxury.jpg">
+
+<h3>Luxury Pack</h3>
+
+<ul>
+
+<li>Montre</li>
+
+<li>Sac</li>
+
+<li>Bracelet</li>
+
+<li>Boucles d'oreilles</li>
+
+</ul>
+
+<button onclick="addToCart('Luxury Pack')">
+
+Ajouter au panier
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ACCESSOIRES ================= -->
+
+<section class="products" id="products">
+
+<div class="section-title">
+
+<h2>Nos Accessoires</h2>
+
+<p>
+
+Des accessoires sélectionnés avec élégance.
+
+</p>
+
+</div>
+
+<div class="product-grid">
+
+<div class="product">
+
+<img src="watch.jpg">
+
+<h3>Montre Femme</h3>
+
+<button onclick="addToCart('Montre')">
+
+Ajouter
+
+</button>
+
+</div>
+
+<div class="product">
+
+<img src="sac.jpg">
+
+<h3>Sac à Main</h3>
+
+<button onclick="addToCart('Sac à Main')">
+
+Ajouter
+
+</button>
+
+</div>
+
+<div class="product">
+
+<img src="bracelet.jpg">
+
+<h3>Bracelet</h3>
+
+<button onclick="addToCart('Bracelet')">
+
+Ajouter
+
+</button>
+
+</div>
+
+<div class="product">
+
+<img src="bag.jpg">
+
+<h3>Bague</h3>
+
+<button onclick="addToCart('Bague')">
+
+Ajouter
+
+</button>
+
+</div>
+
+<div class="product">
+
+<img src="coumier.jpg">
+
+<h3>Collier</h3>
+
+<button onclick="addToCart('Collier')">
+
+Ajouter
+
+</button>
+
+</div>
+
+<div class="product">
+
+<img src="earrings.jpg">
+
+<h3>Boucles d'oreilles</h3>
+
+<button onclick="addToCart(Boucle)">
+
+Ajouter
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+<!-- =======================
+        ABOUT
+======================== -->
+
+<section class="about" id="about">
+
+    <div class="section-title">
+
+        <span>À propos</span>
+
+        <h2>Bienvenue chez Velmira Pack</h2>
+
+        <p>
+
+            Velmira Pack est une marque spécialisée
+            dans les coffrets cadeaux et les accessoires
+            féminins élégants.
+
+            Nous créons des packs raffinés avec soin
+            afin d'offrir une expérience unique à chaque cliente.
+
+        </p>
+
+    </div>
+
+    <div class="about-container">
+
+        <div class="about-card">
+
+            <i class="fa-solid fa-gem"></i>
+
+            <h3>Qualité Premium</h3>
+
+            <p>
+
+                Chaque accessoire est sélectionné
+                avec une grande attention.
+
+            </p>
+
+        </div>
+
+        <div class="about-card">
+
+            <i class="fa-solid fa-gift"></i>
+
+            <h3>Coffrets Élégants</h3>
+
+            <p>
+
+                Des packs luxueux pour toutes
+                les occasions.
+
+            </p>
+
+        </div>
+
+        <div class="about-card">
+
+            <i class="fa-solid fa-truck-fast"></i>
+
+            <h3>Livraison Rapide</h3>
+
+            <p>
+
+                Livraison disponible partout
+                au Maroc.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =======================
+        NOS PACKS
+======================== -->
+
+<section class="packs" id="packs">
+
+<div class="section-title">
+
+<span>Nos Packs</span>
+
+<h2>Choisissez votre Pack</h2>
+
+<p>
+
+Découvrez nos packs créés spécialement
+pour offrir un cadeau élégant.
+
+</p>
+
+</div>
+
+<div class="packs-container">
+
+<!-- Pack 1 -->
+
+<div class="pack-card">
+
+<img src="princess.jpg" alt="Princess Pack">
+
+<h3>Princess Pack</h3>
+
+<ul>
+
+<li>Montre Femme</li>
+
+<li>Bracelet Élégant</li>
+
+<li>Collier</li>
+
+<li>Boucles d'oreilles</li>
+
+<li>Boîte Cadeau Luxe</li>
+
+</ul>
+
+<button onclick="addToCart('Princess Pack')">
+
+Ajouter au panier
+
+</button>
+
+</div>
+
+<!-- Pack 2 -->
+
+<div class="pack-card">
+
+<img src="elegance.jpg" alt="Elegance Pack">
+
+<h3>Elegance Pack</h3>
+
+<ul>
+
+<li>Sac à Main</li>
+
+<li>Bracelet</li>
+
+<li>Bague</li>
+
+<li>Collier</li>
+
+</ul>
+
+<button onclick="addToCart('Elegance Pack')">
+
+Ajouter au panier
+
+</button>
+
+</div>
+
+<!-- Pack 3 -->
+
+<div class="pack-card">
+
+<img src="luxury.jpg" alt="Luxury Pack">
+
+<h3>Luxury Pack</h3>
+
+<ul>
+
+<li>Montre</li>
+
+<li>Sac Femme</li>
+
+<li>Bracelet</li>
+
+<li>Boucles d'oreilles</li>
+
+</ul>
+
+<button onclick="addToCart('Luxury Pack')">
+
+Ajouter au panier
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =======================
+      ACCESSOIRES
+======================== -->
+
+<section class="products" id="products">
+
+<div class="section-title">
+
+<span>Accessoires</span>
 
 <h2>Nos Produits</h2>
 
-<div class="cards">
-
-<div class="card">
-
-<img src="choco1.jpg.jpeg">
-
-<h3>Coffret dattes prestiges enrobés du chocolat belge</h3>
-
-</div>
-
-<div class="card">
-
-<img src="choco2.jpg.jpeg">
-
-<h3>Collection Premium</h3>
-
-</div>
-
-<div class="card">
-
-<img src="choco3.jpg.jpeg">
-
-<h3>Le coup royale 🤴 </h3>
-
-</div>
-
-<div class="card">
-
-<img src="choco4.jpg.jpeg">
-
-<h3>Le coup royale 🤴 </h3>
-
-</div>
-
-<div class="card">
-
-<img src="choco5.jpg">
-
-<h3>chocolat dubai pistache</h3>
-
-</div>
-
-
-</section>
-
-
-
-<section id="gallery">
-
-<h2>Galerie</h2>
-
-<div class="gallery">
-
-<img src="choco1.jpg.jpeg">
-
-<img src="choco2.jpg.jpeg">
-
-<img src="choco3.jpg.jpeg">
-
-<img src="choco4.jpg.jpeg">
-
-<img src="choco5.jpg">
-
-<img src="choco6.jpg">
-
-<img src="choco7.jpg">
-
-<img src="choco8.jpg">
-
-</div>
-
-</section>
-
-
-
-<section id="contact">
-
-<h2>Contact</h2>
-
 <p>
 
-<i class="fab fa-whatsapp"></i>
-
-+212 773 255 362
+Découvrez notre collection
+d'accessoires élégants.
 
 </p>
 
-<p>
+</div>
 
-<i class="fab fa-instagram"></i>
+<div class="products-container">
 
-@maitre_gout
+<div class="product-card">
 
-</p>
+<img src="watch.jpg">
 
-<a class="btn" href="https://wa.me/212773255362">
+<h3>Montre Femme</h3>
 
-Commander via WhatsApp
+<button onclick="addToCart('Montre')">
 
-</a>
+Ajouter
+
+</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="sac.jpg">
+
+<h3>Sac à Main</h3>
+
+<button onclick="addToCart('Sac à Main')">
+
+Ajouter
+
+</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="bracelet.jpg">
+
+<h3>Bracelet</h3>
+
+<button onclick="addToCart('Bracelet')">
+
+Ajouter
+
+</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="coumier.jpg">
+
+<h3>Collier</h3>
+
+<button onclick="addToCart('Collier')">
+
+Ajouter
+
+</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="bag.jpg">
+
+<h3>Bague</h3>
+
+<button onclick="addToCart('Bague')">
+
+Ajouter
+
+</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="earrings.jpg">
+
+<h3>Boucles d'oreilles</h3>
+
+<button onclick="addToCart('Boucles d&apos;oreilles')">
+
+Ajouter
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+<!-- ====================================
+            CART SECTION
+==================================== -->
+
+<section class="cart-section" id="cart">
+
+    <div class="section-title">
+
+        <span>Panier</span>
+
+        <h2>Votre Panier</h2>
+
+        <p>
+            Retrouvez ici tous les articles que vous avez ajoutés.
+        </p>
+
+    </div>
+
+    <div class="cart-container">
+
+        <div id="cart-items">
+
+            <p class="empty-cart">
+
+                Votre panier est vide.
+
+            </p>
+
+        </div>
+
+        <div class="cart-total">
+
+            <h3>Total :</h3>
+
+            <span id="total-price">0 MAD</span>
+
+            <button class="checkout-btn">
+
+                Commander
+
+            </button>
+
+        </div>
+
+    </div>
 
 </section>
 
+<!-- ====================================
+            STATISTICS
+==================================== -->
 
+<section class="statistics">
+
+<div class="stat-box">
+
+<h2>500+</h2>
+
+<p>Clientes satisfaites</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>150+</h2>
+
+<p>Packs vendus</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>98%</h2>
+
+<p>Satisfaction</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>24/7</h2>
+
+<p>Support</p>
+
+</div>
+
+</section>
+
+<!-- ====================================
+            REVIEWS
+==================================== -->
+
+<section class="reviews" id="reviews">
+
+<div class="section-title">
+
+<span>Avis</span>
+
+<h2>Ce que disent nos clientes</h2>
+
+<p>
+
+Votre satisfaction est notre priorité.
+
+</p>
+
+</div>
+
+<div class="reviews-container">
+
+<div class="review-card">
+
+<div class="stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+dakchi 3ndkom zwiiin bzaff merci anwli cleint dylkom .
+
+</p>
+
+<h4>Sarah</h4>
+
+</div>
+
+<div class="review-card">
+
+<div class="stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+Les accessoires sont encore plus beaux
+que sur les photos.
+
+</p>
+
+<h4>Imane</h4>
+
+</div>
+
+<div class="review-card">
+
+<div class="stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+Livraison rapide.
+Je recommande Velmira Pack.
+
+</p>
+
+<h4>Nour</h4>
+
+</div>
+
+</div>
+
+</section>
+<!-- ====================================
+            CONTACT
+==================================== -->
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+
+        <span>Contact</span>
+
+        <h2>Contactez-nous</h2>
+
+        <p>
+            Remplissez le formulaire et nous vous répondrons dans les plus brefs délais.
+        </p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Formulaire -->
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                placeholder="Nom"
+                required>
+
+            <input
+                type="text"
+                placeholder="Prénom"
+                required>
+
+            <input
+                type="text"
+                placeholder="Ville"
+                required>
+
+            <input
+                type="tel"
+                placeholder="Téléphone"
+                required>
+
+            <input
+                type="email"
+                placeholder="Adresse Email">
+
+            <textarea
+                rows="6"
+                placeholder="Votre message..."
+                required></textarea>
+
+            <button type="submit">
+
+                Envoyer
+
+            </button>
+
+        </form>
+
+        <!-- Informations -->
+
+        <div class="contact-info">
+
+            <h3>Velmira Pack</h3>
+
+            <p>
+
+                <i class="fa-solid fa-phone"></i>
+
+                0651994946
+
+            </p>
+
+            <p>
+
+                <i class="fa-brands fa-instagram"></i>
+
+                @velmirapack
+
+            </p>
+
+            <p>
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                Maroc
+
+            </p>
+
+            <p>
+
+                <i class="fa-solid fa-clock"></i>
+
+                Lun - Dim | 09:00 - 22:00
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ====================================
+            FOOTER
+==================================== -->
 
 <footer>
 
-<p>
+    <div class="footer-content">
 
-© 2026 MAÎTRE GOÛT
+        <div class="footer-box">
 
-Tous droits réservés.
+            <h2>Velmira Pack</h2>
 
-</p>
+            <p>
+
+                Des cadeaux élégants,
+                des accessoires raffinés
+                et une expérience unique.
+
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Navigation</h3>
+
+            <ul>
+
+                <li><a href="#home">Accueil</a></li>
+
+                <li><a href="#about">À propos</a></li>
+
+                <li><a href="#packs">Packs</a></li>
+
+                <li><a href="#products">Accessoires</a></li>
+
+                <li><a href="#reviews">Avis</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Suivez-nous</h3>
+
+            <a href="https://www.instagram.com/velmirapack?igsh=MTVudG1manFqb3p2ZA==">
+
+                <i class="fa-brands fa-instagram"></i>
+
+                Instagram
+
+            </a>
+
+            <br><br>
+
+            <p>
+
+                <i class="fa-solid fa-phone"></i>
+
+                0651994946
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © 2026 Velmira Pack.
+        Tous droits réservés.
+
+    </div>
 
 </footer>
 
-
-
-<a href="https://wa.me/212773255362" class="whatsapp">
-
-<i class="fab fa-whatsapp"></i>
-
-</a>
-
+<!-- =========================
+        JAVASCRIPT
+========================= -->
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
